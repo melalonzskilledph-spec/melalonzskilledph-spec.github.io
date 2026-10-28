@@ -3,127 +3,214 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rommel Alonzagay | Personal Website</title>
-  <link rel="stylesheet" href="style.css?v=3">
+  <meta name="description" content="Meet Rommel Alonzagay, a detail-oriented Virtual Assistant providing administrative support, data entry, and online research.">
+  <title>Rommel Alonzagay | Virtual Assistant</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
+  <header class="site-header">
     <nav class="navbar">
-      <a href="#home" class="logo">Rommel Alonzagay</a>
+      <a class="brand" href="#home">Rommel<span>.</span></a>
+
       <div class="nav-links">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
+        <a href="#gallery">My Journey</a>
+        <a class="nav-contact" href="#contact">Let's Talk ↗</a>
       </div>
     </nav>
   </header>
 
   <main>
-    <section id="home" class="hero">
+    <section class="hero section" id="home">
       <div class="hero-content">
-        <p class="eyebrow">WELCOME TO MY PERSONAL WEBSITE</p>
-        <h1>Hello, I'm Rommel Alonzagay</h1>
-        <h2>Virtual Assistant | Administrative Support</h2>
-        <p>
-          I am passionate about organization, continuous learning,
-          and providing reliable support to help individuals and
-          businesses achieve their goals.
+        <p class="eyebrow">VIRTUAL ASSISTANT · ADMINISTRATIVE SUPPORT</p>
+
+        <h1>Helping you work smarter, <em>one task at a time.</em></h1>
+
+        <p class="hero-description">
+          Hello, I'm Rommel Alonzagay. I help individuals and businesses
+          stay organized through reliable administrative support, careful
+          data entry, and thoughtful online research.
         </p>
-        <a href="#contact" class="btn">Get in Touch</a>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Let's work together ↗</a>
+          <a class="text-link" href="#about">Get to know me ↓</a>
+        </div>
+
+        <div class="hero-note">
+          <span class="status-dot"></span>
+          Organized, dependable, and ready to learn
+        </div>
       </div>
-      <div class="hero-image">
-        <img class="profile-photo"
-             src="profile-office.png"
-             alt="Rommel Alonzagay professional photo">
+
+      <div class="hero-visual">
+        <div class="hero-photo-frame">
+          <img
+            src="profile-office.png"
+            alt="Rommel Alonzagay, Virtual Assistant"
+            class="hero-photo"
+          >
+        </div>
+        <div class="photo-caption">
+          <span class="caption-mark">✳</span>
+          <div>
+            <strong>Hi, I'm Rommel!</strong>
+            <p>Your partner in getting things done.</p>
+          </div>
+        </div>
+        <div class="decor decor-one"></div>
+        <div class="decor decor-two"></div>
       </div>
     </section>
 
-    <section id="about" class="about-section">
-      <h2>About Me</h2>
-      <p>
-        I am a motivated and detail-oriented professional who values
-        responsibility, communication, and personal growth. I enjoy
-        learning new skills, staying organized, and approaching every
-        task with dedication and a willingness to improve.
-      </p>
+    <section class="intro-strip">
+      <p>THOUGHTFUL SUPPORT FOR YOUR EVERYDAY BUSINESS NEEDS</p>
     </section>
 
-    <section id="services" class="services-section">
-      <h2>My Services</h2>
-      <div class="services-grid">
+    <section class="about section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Behind every organized day is a little <em>care and intention.</em></h2>
+      </div>
+
+      <div class="about-content">
+        <div class="about-photo-wrap">
+          <img
+            src="profile-graduation.jpg"
+            alt="Rommel celebrating his graduation"
+            class="about-photo"
+            loading="lazy"
+          >
+          <span class="photo-sticker">Always growing ✳</span>
+        </div>
+
+        <div class="about-copy">
+          <p>
+            I'm a motivated and detail-oriented professional who values
+            responsibility, clear communication, and continuous learning.
+            As a graduate of West Visayas State University, I bring a
+            strong willingness to learn and a thoughtful approach to every task.
+          </p>
+
+          <p>
+            I believe good support goes beyond completing a checklist.
+            It means being dependable, paying attention to details, and
+            helping make someone's workload a little lighter.
+          </p>
+
+          <p>
+            I'm continually developing my skills so I can provide organized,
+            consistent, and reliable support to the people and businesses I work with.
+          </p>
+
+          <a class="text-link" href="#services">See how I can help you ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-heading centered">
+        <p class="eyebrow">WHAT I CAN HELP WITH</p>
+        <h2>More time for what <em>matters most.</em></h2>
+        <p class="section-subtitle">
+          Practical support to help keep your work organized and moving forward.
+        </p>
+      </div>
+
+      <div class="service-grid">
         <article class="service-card">
+          <span class="service-number">01</span>
+          <div class="service-icon">✳</div>
           <h3>Administrative Support</h3>
-          <p>Help with organizing files, managing information, and completing everyday administrative tasks.</p>
+          <p>
+            Help organizing files, maintaining records, updating documents,
+            and handling everyday administrative tasks.
+          </p>
+          <a href="#contact" class="card-link">Let's discuss ↗</a>
         </article>
-        <article class="service-card">
-          <h3>Data Entry</h3>
-          <p>Accurate data entry, document organization, and careful handling of information.</p>
+
+        <article class="service-card featured-card">
+          <span class="service-number">02</span>
+          <div class="service-icon">⌘</div>
+          <h3>Data Entry & Organization</h3>
+          <p>
+            Careful data entry, document organization, and structured
+            information handling with attention to detail.
+          </p>
+          <a href="#contact" class="card-link">Let's discuss ↗</a>
         </article>
+
         <article class="service-card">
-          <h3>Research and Organization</h3>
-          <p>Assist with online research, organizing details, and preparing clear records.</p>
+          <span class="service-number">03</span>
+          <div class="service-icon">⌕</div>
+          <h3>Online Research</h3>
+          <p>
+            Help gathering information, organizing research findings,
+            and preparing clear, easy-to-follow records.
+          </p>
+          <a href="#contact" class="card-link">Let's discuss ↗</a>
         </article>
       </div>
     </section>
 
-    <section id="gallery" class="gallery-section">
-      <h2>My Personal Gallery</h2>
-      <p class="section-description">
-        A glimpse of my journey, achievements, and the person behind the work.
-      </p>
+    <section class="personal section" id="gallery">
+      <div class="personal-copy">
+        <p class="eyebrow">LIFE BEYOND THE SCREEN</p>
+        <h2>A little more about <em>my journey.</em></h2>
+        <p>
+          Every experience has helped shape who I am today. I'm proud of
+          how far I've come, grateful for what I've learned, and excited
+          for the opportunities still ahead.
+        </p>
+        <a class="text-link" href="#contact">Let's connect ↗</a>
+      </div>
 
-      <div class="gallery-grid">
-        <article class="gallery-card">
-          <img src="profile-graduation.jpg"
-               alt="Rommel Alonzagay in graduation attire"
-               loading="lazy">
-          <div class="gallery-card-content">
-            <h3>My Graduation Journey</h3>
-            <p>
-              A proud moment celebrating years of hard work, dedication,
-              and perseverance. Every challenge became a lesson, and
-              every step brought me closer to my dreams.
-            </p>
-          </div>
-        </article>
-
-        <article class="gallery-card">
-          <img src="profile-casual.jpg"
-               alt="Rommel Alonzagay in a casual moment"
-               loading="lazy">
-          <div class="gallery-card-content">
-            <h3>A Little About Me</h3>
-            <p>
-              A glimpse of the person behind the work—someone who values
-              growth, embraces new experiences, and continues to learn,
-              improve, and pursue meaningful opportunities.
-            </p>
-          </div>
-        </article>
+      <div class="personal-photo-wrap">
+        <img
+          src="profile-casual.jpg"
+          alt="Rommel in a casual personal photo"
+          class="personal-photo"
+          loading="lazy"
+        >
+        <div class="personal-photo-label">
+          <span>Curious mind.</span>
+          <span>Growing every day.</span>
+        </div>
       </div>
     </section>
 
-    <section id="contact" class="contact-section">
-      <h2>Let's Connect</h2>
-      <p>
-        Have a question or an opportunity to discuss? Feel free to reach out.
-      </p>
-      <a href="mailto:rommelalonzagay.skilledph@gmail.com" class="btn">
-        Email Me
-      </a>
-      <p class="contact-email">
-        rommelalonzagay.skilledph@gmail.com
-      </p>
+    <section class="contact section" id="contact">
+      <div class="contact-inner">
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+        <h2>Let's make your workday <em>a little easier.</em></h2>
+        <p>
+          Have a task or opportunity in mind? I'd love to hear from you
+          and explore how I can help.
+        </p>
+        <a
+          class="button button-light"
+          href="mailto:rommelalonzagay.skilledph@gmail.com"
+        >
+          Contact me by email ↗
+        </a>
+        <a class="contact-email" href="mailto:rommelalonzagay.skilledph@gmail.com">
+          rommelalonzagay.skilledph@gmail.com
+        </a>
+      </div>
+      <span class="contact-decoration decoration-left">✳</span>
+      <span class="contact-decoration decoration-right">✳</span>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Rommel Alonzagay. All rights reserved.</p>
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home">Rommel<span>.</span></a>
+    <p>Built with care by Rommel Alonzagay · © 2026</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
