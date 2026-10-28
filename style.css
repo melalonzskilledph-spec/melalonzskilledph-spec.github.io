@@ -1002,3 +1002,26 @@ button:focus-visible {
     animation-iteration-count: 1 !important;
   }
 }
+
+/* SERVICE ICONS — CLEAN PROFESSIONAL STYLE */
+.service-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  margin-bottom: 18px;
+  border-radius: 14px;
+  background: #F0E3E4;
+  color: #243447;
+  font-size: 26px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.service-card:hover .service-icon {
+  background: #243447;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
