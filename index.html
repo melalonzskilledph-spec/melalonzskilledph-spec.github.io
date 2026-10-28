@@ -3,509 +3,287 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#f7f4ef">
-  <meta name="description" content="Professional portfolio of Rommel Alonzagay, offering healthcare insurance eligibility and claims support, virtual assistance, graphic design, customer service, data entry, and social media management.">
-
-  <title>Rommel Alonzagay | Professional Portfolio</title>
-
+  <meta name="description" content="Professional virtual assistant services specializing in insurance eligibility and claims, administrative support, graphic design, and social media management.">
+  <title>Rommel Alonzagay | Virtual Assistant</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
 </head>
-
 <body>
 
-  <!-- HEADER -->
-  <header class="site-header">
-    <nav class="navbar" aria-label="Main navigation">
-      <a class="logo" href="#home" aria-label="Rommel Alonzagay home">
-        RA<span>.</span>
-      </a>
+<header class="site-header">
+  <nav class="navbar container">
+    <a class="logo" href="#home">RA<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#experience">Experience</a>
+      <a class="nav-contact" href="#contact">Let's Connect <span>↗</span></a>
+    </div>
+  </nav>
+</header>
 
-      <button class="menu-toggle" type="button"
-        aria-label="Toggle navigation"
-        aria-expanded="false"
-        aria-controls="nav-links">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a class="nav-contact" href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-
-    <!-- HERO -->
-    <section class="hero section" id="home">
+<main>
+  <section class="hero section" id="home">
+    <div class="container hero-layout">
       <div class="hero-content">
-        <p class="eyebrow">
-          VIRTUAL ASSISTANCE · HEALTHCARE SUPPORT
-        </p>
-
-        <h1>
-          Reliable support.<br>
-          <span>Meaningful results.</span>
-        </h1>
-
+        <p class="eyebrow"><span class="status-dot"></span> VIRTUAL ASSISTANT · PHILIPPINES</p>
+        <h1>Reliable support.<br><span>Better business.</span></h1>
         <p class="hero-description">
-          Hello, I'm Rommel Alonzagay. I help businesses stay organized
-          through dependable administrative support, healthcare insurance
-          assistance, customer service, and creative digital solutions.
+          Helping businesses stay organized and move forward through dependable administrative support, insurance eligibility and claims assistance, and creative digital services.
         </p>
-
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#services">
-            Explore My Services
-          </a>
-          <a class="btn btn-secondary" href="#about">
-            Get to Know Me
-          </a>
+          <a class="button button-primary" href="#services">Explore My Services <span>↗</span></a>
+          <a class="button button-secondary" href="#about">Get to Know Me</a>
         </div>
-
         <div class="hero-note">
-          <span class="status-dot"></span>
+          <span class="note-line"></span>
           Detail-oriented · Organized · Client-focused
         </div>
       </div>
-
       <div class="hero-visual">
         <div class="hero-image-frame">
-          <img
-            src="profile-office.png"
-            alt="Rommel Alonzagay in a professional setting"
-            fetchpriority="high">
+          <img src="profile-office.png" alt="Rommel Alonzagay in a professional setting">
         </div>
-
-        <div class="hero-image-caption">
-          <span class="caption-label">YOUR TRUSTED SUPPORT PARTNER</span>
-          <span class="caption-name">Rommel Alonzagay</span>
+        <div class="floating-card">
+          <span class="floating-icon">✓</span>
+          <div><strong>Dependable Support</strong><small>Focused on the details</small></div>
         </div>
-
-        <div class="hero-decoration decoration-one"></div>
-        <div class="hero-decoration decoration-two"></div>
+        <span class="visual-decoration decoration-one"></span>
+        <span class="visual-decoration decoration-two"></span>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- INTRODUCTION STRIP -->
-    <section class="intro-strip" aria-label="Professional focus">
-      <div class="intro-strip-inner">
-        <span>Healthcare Insurance Support</span>
-        <span class="strip-divider">/</span>
-        <span>Virtual Assistance</span>
-        <span class="strip-divider">/</span>
-        <span>Creative Digital Services</span>
+  <section class="intro-strip">
+    <div class="container intro-grid">
+      <div><span>01</span><p>Administrative Support</p></div>
+      <div><span>02</span><p>Insurance Assistance</p></div>
+      <div><span>03</span><p>Creative Digital Services</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about-layout">
+      <div class="about-visual">
+        <img src="profile-graduation.jpg" alt="Rommel Alonzagay at graduation">
+        <div class="image-caption"><span>🎓</span><div><strong>College Graduate</strong><small>Class of 2023</small></div></div>
       </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="about section" id="about">
-      <div class="about-image">
-        <img
-          src="profile-graduation.jpg"
-          alt="Rommel Alonzagay during graduation"
-          loading="lazy">
-        <div class="image-label">
-          <span class="image-label-small">EDUCATION</span>
-          <strong>College Graduate · 2023</strong>
-        </div>
-      </div>
-
       <div class="about-content">
         <p class="eyebrow">A LITTLE ABOUT ME</p>
-
-        <h2>
-          Professional support with
-          <span>purpose and precision.</span>
-        </h2>
-
+        <h2>Professional support with a <span>personal touch.</span></h2>
         <p>
-          I am a college graduate of Central Philippines State University –
-          Kabankalan, with experience in insurance services, customer
-          engagement, administrative tasks, and digital content support.
+          I'm a detail-oriented professional from Kabankalan City, Philippines, with experience in insurance services, customer support, administrative tasks, and digital content creation.
         </p>
-
         <p>
-          My background has helped me develop strong attention to detail,
-          organization, professional communication, and a commitment to
-          providing dependable service. I value accuracy, continuous
-          learning, and building positive working relationships.
+          My goal is to help clients save time, maintain organized workflows, and deliver a more reliable experience to their customers. I value clear communication, accuracy, and continuous learning.
         </p>
-
-        <p>
-          Whether supporting insurance-related processes, organizing
-          information, assisting customers, or creating digital content,
-          I aim to deliver work that is thoughtful, accurate, and reliable.
-        </p>
-
-        <a class="text-link" href="#experience">
-          Explore my background <span aria-hidden="true">→</span>
-        </a>
+        <div class="about-facts">
+          <div><strong>2023</strong><span>College Graduate</span></div>
+          <div><strong>Multi-skilled</strong><span>Administrative & Digital</span></div>
+        </div>
+        <a class="text-link" href="#experience">View My Background <span>→</span></a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- SERVICES -->
-    <section class="services section" id="services">
+  <section class="section services-section" id="services">
+    <div class="container">
       <div class="section-heading">
-        <p class="eyebrow">HOW I CAN HELP</p>
-        <h2>Services &amp; Expertise</h2>
-        <p>
-          Practical, reliable support to help businesses work more
-          efficiently and stay focused on what matters.
-        </p>
+        <div><p class="eyebrow">HOW I CAN HELP</p><h2>Services designed around <span>your needs.</span></h2></div>
+        <p>Practical, organized, and thoughtful support to help your day-to-day operations run more smoothly.</p>
       </div>
 
       <div class="service-grid">
-
         <article class="service-card">
-          <div class="service-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M12 3 20 6v5c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-3Z"/>
-              <path d="m8.5 12 2.2 2.2 4.8-5"/>
-            </svg>
-          </div>
+          <div class="service-icon" aria-hidden="true">▤</div>
           <span class="service-number">01</span>
-          <h3>Insurance Eligibility &amp; Claims</h3>
-          <p>
-            Support with insurance eligibility verification, benefits
-            checking, claims-related tasks, and insurance documentation.
-          </p>
-          <span class="service-tag">Healthcare Support</span>
+          <h3>Insurance Eligibility & Claims</h3>
+          <p>Support with insurance eligibility verification, benefits-related inquiries, and claims assistance with attention to accuracy and detail.</p>
+          <span class="service-tag">Insurance Support</span>
         </article>
 
         <article class="service-card">
-          <div class="service-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M12 3 14.5 9.5 21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3Z"/>
-              <path d="m19 2 .8 2.2L22 5l-2.2.8L19 8l-.8-2.2L16 5l2.2-.8L19 2Z"/>
-            </svg>
-          </div>
+          <div class="service-icon" aria-hidden="true">✳</div>
           <span class="service-number">02</span>
           <h3>Graphic Design</h3>
-          <p>
-            Creation of clean graphics, promotional materials, social media
-            visuals, and branded content using Canva.
-          </p>
-          <span class="service-tag">Creative Support</span>
+          <p>Clean and engaging graphics for social media, promotions, and everyday business communication using Canva.</p>
+          <span class="service-tag">Creative Design</span>
         </article>
 
         <article class="service-card">
-          <div class="service-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M4 13v-2a8 8 0 0 1 16 0v2"/>
-              <path d="M4 13H3v4h4v-5H4Zm16 0h1v4h-4v-5h3Z"/>
-              <path d="M17 19c-1 1-2.5 1.5-5 1.5"/>
-            </svg>
-          </div>
+          <div class="service-icon" aria-hidden="true">☏</div>
           <span class="service-number">03</span>
           <h3>Customer Service</h3>
-          <p>
-            Professional communication, responding to customer inquiries,
-            client assistance, and relationship management.
-          </p>
-          <span class="service-tag">Client Care</span>
+          <p>Professional customer communication, inquiry handling, and client-focused assistance that supports a positive experience.</p>
+          <span class="service-tag">Client Relations</span>
         </article>
 
         <article class="service-card">
-          <div class="service-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <rect x="4" y="3" width="16" height="18" rx="2"/>
-              <path d="M8 8h8M8 12h8M8 16h5"/>
-            </svg>
-          </div>
+          <div class="service-icon" aria-hidden="true">▦</div>
           <span class="service-number">04</span>
           <h3>Data Entry</h3>
-          <p>
-            Accurate data encoding, updating records, organizing
-            spreadsheets, and maintaining clear digital documentation.
-          </p>
-          <span class="service-tag">Accuracy &amp; Organization</span>
+          <p>Accurate data input, document organization, record updates, and careful handling of information.</p>
+          <span class="service-tag">Accuracy & Records</span>
         </article>
 
         <article class="service-card">
-          <div class="service-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <rect x="3" y="3" width="18" height="18" rx="5"/>
-              <circle cx="12" cy="12" r="4"/>
-              <path d="M17.5 6.5h.01"/>
-            </svg>
-          </div>
+          <div class="service-icon" aria-hidden="true">◎</div>
           <span class="service-number">05</span>
           <h3>Social Media Management</h3>
-          <p>
-            Content creation, post scheduling, brand consistency, audience
-            engagement, and basic performance monitoring.
-          </p>
+          <p>Content planning, post scheduling, basic branding support, audience engagement, and page organization.</p>
           <span class="service-tag">Digital Presence</span>
         </article>
 
         <article class="service-card">
-          <div class="service-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <rect x="3" y="5" width="18" height="16" rx="2"/>
-              <path d="M16 3v4M8 3v4M3 10h18"/>
-              <path d="m8 15 2 2 5-5"/>
-            </svg>
-          </div>
+          <div class="service-icon" aria-hidden="true">▣</div>
           <span class="service-number">06</span>
+          <h3>Administrative Support</h3>
+          <p>Document preparation, email correspondence, file organization, and other day-to-day administrative tasks.</p>
+          <span class="service-tag">Business Operations</span>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true">◷</div>
+          <span class="service-number">07</span>
           <h3>Calendar Management</h3>
-          <p>
-            Scheduling assistance, calendar organization, appointment
-            coordination, and deadline tracking.
-          </p>
+          <p>Schedule organization, appointment coordination, reminders, and calendar updates to keep priorities on track.</p>
           <span class="service-tag">Time Management</span>
         </article>
 
         <article class="service-card">
-          <div class="service-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <rect x="3" y="4" width="18" height="17" rx="2"/>
-              <path d="M8 2v4M16 2v4M3 9h18"/>
-              <path d="m8 14 2 2 5-4"/>
-            </svg>
-          </div>
-          <span class="service-number">07</span>
-          <h3>Administrative Support</h3>
-          <p>
-            Document preparation, file organization, correspondence,
-            recordkeeping, and day-to-day administrative assistance.
-          </p>
-          <span class="service-tag">Business Support</span>
-        </article>
-
-        <article class="service-card">
-          <div class="service-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <circle cx="9" cy="8" r="3"/>
-              <circle cx="17" cy="9" r="2"/>
-              <path d="M3 20v-2a6 6 0 0 1 12 0v2H3Z"/>
-              <path d="M16 14a4 4 0 0 1 5 4v2h-4"/>
-            </svg>
-          </div>
+          <div class="service-icon" aria-hidden="true">⌘</div>
           <span class="service-number">08</span>
           <h3>Project Coordination</h3>
-          <p>
-            Task organization, progress tracking, deadline coordination,
-            and support in keeping projects organized.
-          </p>
-          <span class="service-tag">Productivity</span>
+          <p>Task tracking, organizing project details, coordinating schedules, and helping teams stay aligned on priorities.</p>
+          <span class="service-tag">Organization</span>
         </article>
-
       </div>
+      <p class="expertise-note">Every task is approached with care, clear communication, and attention to detail.</p>
+    </div>
+  </section>
 
-      <div class="expertise-note">
-        <strong>Healthcare insurance familiarity</strong>
-        <p>
-          Blue Shield of California · Medicare · CalPERS · Optum
-        </p>
-        <small>
-          Familiarity with these insurance programs and organizations;
-          specific tasks depend on client requirements and authorized access.
-        </small>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section class="experience section" id="experience">
+  <section class="section experience-section" id="experience">
+    <div class="container">
       <div class="section-heading">
-        <p class="eyebrow">MY PROFESSIONAL JOURNEY</p>
-        <h2>Experience &amp; Education</h2>
-        <p>
-          A foundation built through practical work, education, and
-          continuous skills development.
-        </p>
+        <div><p class="eyebrow">MY BACKGROUND</p><h2>Experience that builds <span>trust.</span></h2></div>
+        <p>A combination of client-facing experience, insurance support, and practical administrative skills.</p>
       </div>
 
       <div class="experience-layout">
-
-        <div class="experience-column">
-          <h3 class="column-heading">Work Experience</h3>
-
+        <div class="timeline">
           <article class="timeline-item">
-            <span class="timeline-dot"></span>
-            <p class="timeline-date">2024</p>
-            <h4>Insurance Eligibility &amp; Claims Specialist</h4>
-            <p class="timeline-type">Healthcare Insurance Support</p>
-            <p>
-              Experience and familiarity with insurance eligibility,
-              claims-related support, and insurance processes involving
-              Blue Shield of California, Medicare, CalPERS, and Optum.
-            </p>
+            <span class="timeline-marker"></span>
+            <p class="timeline-date">2024 · Insurance Support</p>
+            <h3>Insurance Eligibility and Claims Specialist</h3>
+            <p>Experience supporting healthcare insurance eligibility and claims-related inquiries, with familiarity with Blue Shield of California, Medicare, CalPERS, and Optum.</p>
+            <span class="experience-label">Healthcare Customer Support</span>
           </article>
 
           <article class="timeline-item">
-            <span class="timeline-dot"></span>
+            <span class="timeline-marker"></span>
             <p class="timeline-date">August 2023 – September 2024</p>
-            <h4>Insurance Agent</h4>
-            <p class="timeline-type">Pru Life UK – Philippines</p>
-            <p>
-              Supported client relationships, personalized financial
-              product discussions, customer service, and administrative
-              coordination. Also worked on social media content,
-              promotional posting, client engagement, and content planning.
-            </p>
+            <h3>Insurance Agent</h3>
+            <h4>Pru Life UK – Philippines</h4>
+            <p>Supported client relationships, customer inquiries, social media content, scheduling, document preparation, and client engagement.</p>
+            <span class="experience-label">Client Relations · Digital Content</span>
           </article>
-        </div>
-
-        <div class="experience-column">
-          <h3 class="column-heading">Education &amp; Training</h3>
 
           <article class="timeline-item">
-            <span class="timeline-dot"></span>
+            <span class="timeline-marker"></span>
             <p class="timeline-date">2023</p>
-            <h4>College Graduate</h4>
-            <p class="timeline-type">
-              Central Philippines State University – Kabankalan
-            </p>
-            <p>
-              Completed college education and developed a foundation
-              in communication, organization, and professional work.
-            </p>
-          </article>
-
-          <article class="timeline-item">
-            <span class="timeline-dot"></span>
-            <p class="timeline-date">Professional Training</p>
-            <h4>Virtual Assistant Certified Training</h4>
-            <p class="timeline-type">Skills Development</p>
-            <ul class="training-list">
-              <li>Social Media Management</li>
-              <li>Graphic and Video Creation Using Canva</li>
-              <li>Data Entry</li>
-              <li>Project Management</li>
-              <li>Calendar Management</li>
-            </ul>
+            <h3>College Graduate</h3>
+            <h4>Central Philippines State University – Kabankalan</h4>
+            <p>Completed college education while developing communication, organization, and professional skills.</p>
+            <span class="experience-label">Education</span>
           </article>
         </div>
 
+        <aside class="training-card">
+          <p class="eyebrow">PROFESSIONAL DEVELOPMENT</p>
+          <h3>Virtual Assistant Certified Training</h3>
+          <p>Training in practical tools and workflows for remote business support.</p>
+          <ul class="training-list">
+            <li><span>✓</span> Social Media Management</li>
+            <li><span>✓</span> Graphic & Video Creation Using Canva</li>
+            <li><span>✓</span> Data Entry</li>
+            <li><span>✓</span> Project Management</li>
+            <li><span>✓</span> Calendar Management</li>
+          </ul>
+          <div class="training-footer">Always learning. Always improving.</div>
+        </aside>
       </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section class="skills section" id="skills">
-      <div class="skills-content">
-        <p class="eyebrow">WHAT I BRING TO THE TABLE</p>
-        <h2>Skills that support your business.</h2>
-        <p>
-          I combine practical administrative abilities with a careful,
-          organized, and service-oriented approach to work.
-        </p>
-      </div>
-
-      <div class="skills-list">
-        <span class="skill-pill">Insurance Eligibility</span>
-        <span class="skill-pill">Claims Support</span>
-        <span class="skill-pill">Customer Service</span>
-        <span class="skill-pill">Data Entry</span>
-        <span class="skill-pill">Canva</span>
-        <span class="skill-pill">Graphic Design</span>
-        <span class="skill-pill">Social Media Management</span>
-        <span class="skill-pill">Microsoft Word</span>
-        <span class="skill-pill">Microsoft Excel</span>
-        <span class="skill-pill">Microsoft PowerPoint</span>
-        <span class="skill-pill">Microsoft Outlook</span>
-        <span class="skill-pill">Calendar Management</span>
-        <span class="skill-pill">Document Organization</span>
-        <span class="skill-pill">Time Management</span>
-        <span class="skill-pill">Project Coordination</span>
-        <span class="skill-pill">Attention to Detail</span>
-      </div>
-    </section>
-
-    <!-- PERSONAL / WORK STYLE -->
-    <section class="personal section">
-      <div class="personal-content">
-        <p class="eyebrow">MY APPROACH TO WORK</p>
-        <h2>Good work starts with the right details.</h2>
-        <p>
-          I believe effective support comes from clear communication,
-          consistency, organization, and a willingness to learn. My goal
-          is to make everyday tasks easier for the people and businesses
-          I support.
-        </p>
-
-        <div class="values-list">
-          <div>
-            <span class="value-mark">01</span>
-            <div>
-              <h3>Accuracy</h3>
-              <p>Careful handling of information and attention to detail.</p>
-            </div>
-          </div>
-
-          <div>
-            <span class="value-mark">02</span>
-            <div>
-              <h3>Reliability</h3>
-              <p>Organized work and a responsible approach to tasks.</p>
-            </div>
-          </div>
-
-          <div>
-            <span class="value-mark">03</span>
-            <div>
-              <h3>Communication</h3>
-              <p>Respectful, clear, and professional client support.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="personal-image">
-        <img
-          src="profile-casual.jpg"
-          alt="Rommel Alonzagay"
-          loading="lazy">
-        <div class="personal-image-accent"></div>
-      </div>
-    </section>
-
-    <!-- CONTACT CTA: KEEP ONE CONTACT SECTION -->
-    <section class="contact section" id="contact">
-      <div class="contact-inner">
-        <p class="eyebrow">LET'S WORK TOGETHER</p>
-        <h2>Have a project in mind?</h2>
-        <p>
-          If you're looking for dependable support for your business,
-          I'd welcome the opportunity to discuss how I can help.
-        </p>
-        <a
-          class="btn btn-light"
-          href="mailto:freelancerommelalonzagay25@gmail.com">
-          Contact Me by Email
-          <span aria-hidden="true">→</span>
-        </a>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <a class="logo footer-logo" href="#home">
-        RA<span>.</span>
-      </a>
-
-      <p>
-        © <span id="current-year">2026</span> Rommel Alonzagay.
-        All rights reserved.
-      </p>
-
-      <a class="back-to-top" href="#home">Back to top ↑</a>
     </div>
-  </footer>
+  </section>
 
+  <section class="section skills-section" id="skills">
+    <div class="container skills-layout">
+      <div>
+        <p class="eyebrow">TOOLS & STRENGTHS</p>
+        <h2>Organized work.<br><span>Thoughtful execution.</span></h2>
+        <p class="skills-intro">I combine practical digital skills with an organized approach to help keep tasks clear, accurate, and moving forward.</p>
+        <img class="casual-photo" src="profile-casual.jpg" alt="Rommel Alonzagay in a casual setting">
+      </div>
+      <div class="skills-panel">
+        <h3>Tools I Work With</h3>
+        <div class="skills-list">
+          <span class="skill-pill">Microsoft Word</span>
+          <span class="skill-pill">Microsoft Excel</span>
+          <span class="skill-pill">PowerPoint</span>
+          <span class="skill-pill">Outlook</span>
+          <span class="skill-pill">Canva</span>
+          <span class="skill-pill">Social Media</span>
+          <span class="skill-pill">Data Entry</span>
+          <span class="skill-pill">Calendar Tools</span>
+        </div>
+        <div class="skills-divider"></div>
+        <h3>My Working Style</h3>
+        <ul class="values-list">
+          <li><span>✓</span><div><strong>Attention to detail</strong><p>Careful with records, documents, and task requirements.</p></div></li>
+          <li><span>✓</span><div><strong>Organization & time management</strong><p>Keeping tasks, schedules, and priorities structured.</p></div></li>
+          <li><span>✓</span><div><strong>Clear communication</strong><p>Respectful, professional, and client-focused collaboration.</p></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="personal-section">
+    <div class="container personal-inner">
+      <div class="personal-mark">“</div>
+      <p class="eyebrow">MY APPROACH</p>
+      <h2>Good work starts with listening, <span>care, and consistency.</span></h2>
+      <p>I believe reliable support is about more than completing tasks. It means understanding priorities, communicating clearly, and helping people feel confident about the work being handled.</p>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="container contact-inner">
+      <div>
+        <p class="eyebrow">LET'S WORK TOGETHER</p>
+        <h2>Have a task in mind?<br><span>Let's talk.</span></h2>
+        <p>Looking for dependable support for your business? Send me a message and tell me what you need help with.</p>
+        <a class="button button-light" href="mailto:freelancerommelalonzagay25@gmail.com">✉ Email Me <span>↗</span></a>
+      </div>
+      <div class="contact-details">
+        <div class="contact-detail"><span class="contact-icon">✉</span><div><small>EMAIL</small><a href="mailto:freelancerommelalonzagay25@gmail.com">freelancerommelalonzagay25@gmail.com</a></div></div>
+        <div class="contact-detail"><span class="contact-icon">☎</span><div><small>PHONE</small><a href="tel:+639764794438">+63 976 479 4438</a></div></div>
+        <div class="contact-detail"><span class="contact-icon">⌖</span><div><small>LOCATION</small><p>Kabankalan City, Philippines</p></div></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a class="logo" href="#home">RA<span>.</span></a>
+    <p>© <span id="year">2026</span> Rommel Alonzagay. Built with purpose.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
